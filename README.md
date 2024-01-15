@@ -21,6 +21,7 @@ npm
 Installation
 Clone the repository:
 
+[git clone]([https://www.example.com](https://github.com/Sachin-201/React/AstroidWorld.git))
 git clone https://github.com/Sachin-201/React/AstroidWorld.git
 Running the application:
 
