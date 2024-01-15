@@ -15,8 +15,8 @@ Welcome to  Astroid World, a project exploring asteroids using NASA's API.
 
 # Getting Started
 >**Prerequisites**
-> --Node.js (v14.x or above)
-> --npm 
+> - Node.js (v14.x or above)
+> - npm 
 > **Installation**
 > **Clone the repository:**
 >
