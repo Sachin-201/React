@@ -25,5 +25,5 @@ Clone the repository:
 
 Running the application:
 
-'cd React'
-'npm run start'
+``cd React``
+``npm run start``
