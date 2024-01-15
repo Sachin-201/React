@@ -24,5 +24,5 @@ Welcome to  Astroid World, a project exploring asteroids using NASA's API.
 
 > - **Running the application:**
 
-> `` cd React ``
-> `` npm run start ``
+  ``cd React``
+  ``npm run start``
