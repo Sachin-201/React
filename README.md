@@ -26,3 +26,15 @@ Welcome to  Astroid World, a project exploring asteroids using NASA's API.
 
   ``cd React``
   ``npm run start``
+
+<!--  
+
+
+Amended force push
+The git commit command accepts a --amend option which will update the previous commit. A commit is often amended to update the commit message or add new changes. Once a commit is amended a git push will fail because Git will see the amended commit and the remote commit as diverged content. The --force option must be used to push an amended commit.
+
+# make changes to a repo and git add
+git commit --amend
+# update the existing commit message
+git push --force origin main
+The above example assumes it is being executed on an existing repository with a commit history. git commit --amend is used to update the previous commit. The amended commit is then force pushed using the --force option. -->
