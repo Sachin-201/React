@@ -20,7 +20,7 @@ Welcome to  Astroid World, a project exploring asteroids using NASA's API.
 > **Installation**
 > - **Clone the repository:**
 >
-> > [git clone]([https://www.example.com](https://github.com/Sachin-201/React/AstroidWorld.git))
+> > https://www.example.com](https://github.com/Sachin-201/React/AstroidWorld.git
 
 > - **Running the application:**
 
