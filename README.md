@@ -14,15 +14,15 @@ Welcome to  Astroid World, a project exploring asteroids using NASA's API.
 > - **NASA NeoWs API:** Provides access to near-Earth object information.
 
 # Getting Started
->**Prerequisites**
-> - Node.js (v14.x or above)
-> - npm 
+> **Prerequisites**
+> -- Node.js (v14.x or above)
+> -- npm 
 > **Installation**
-> **Clone the repository:**
+> - **Clone the repository:**
 >
->[git clone]([https://www.example.com](https://github.com/Sachin-201/React/AstroidWorld.git))
+> > [git clone]([https://www.example.com](https://github.com/Sachin-201/React/AstroidWorld.git))
 
-> -**Running the application:**
+> - **Running the application:**
 
->``cd React``
->``npm run start``
+>>``cd React``
+>>``npm run start``
