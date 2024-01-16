@@ -71,7 +71,7 @@ function FFom() {
                 <br />
                 <button
                   type="submit"
-                  disabled={Apicall && Astoid.length === 7} //yha toda error lag rha hai
+                  disabled={Apicall || !(Astoid.length === 7)}
                   className="btn"
                   onClick={Astrosubmit}
                 >
