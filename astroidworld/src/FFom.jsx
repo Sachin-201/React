@@ -39,11 +39,7 @@ function FFom() {
       SetApicall(false);
       const response = await fetch(baseurl + "browse?api_key=" + APIKEY);
       let data = await response.json();
-      let APIDATA = [{}];
-      APIDATA = data.near_earth_objects.map((item) => {
-        return item;
-      });
-      let randomdata = APIDATA[Math.floor(Math.random() * APIDATA.length)];
+      let randomdata = data.near_earth_objects[Math.floor(Math.random() * 20)];
       randomdata = JSON.stringify(randomdata);
       Detailcall(randomdata);
     } catch (error) {
@@ -61,14 +57,11 @@ function FFom() {
           <form onSubmit={(e) => e.preventDefault()}>
             <div>
               <label>
-                <br></br>
-                <br></br>
                 <input
                   type="number"
                   onChange={(e) => setAstoid(e.target.value)}
                   placeholder="Enter a Astroid ID"
                 />
-                <br />
                 <button
                   type="submit"
                   disabled={Apicall || !(Astoid.length === 7)}
