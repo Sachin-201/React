@@ -58,35 +58,37 @@ function FFom() {
       <div className="login">
         <div className="form">
           <h1>Welcome To the Astroid World</h1>
-          <div>
-            <label>
-              <br></br>
-              <br></br>
-              <input
-                type="number"
-                onChange={(e) => setAstoid(e.target.value)}
-                placeholder="Enter a Astroid ID"
-              />
-              <br />
-              <button
-                type="submit"
-                disabled={Apicall && Astoid.length === 7} //yha toda error lag rha hai
-                className="btn"
-                onClick={Astrosubmit}
-              >
-                Submit
-              </button>
-              <button
-                type="submit"
-                disabled={Apicall}
-                className="btn"
-                onClick={RAstrosubmit}
-              >
-                Random
-              </button>
-              <br />
-            </label>
-          </div>
+          <form onSubmit={(e) => e.preventDefault()}>
+            <div>
+              <label>
+                <br></br>
+                <br></br>
+                <input
+                  type="number"
+                  onChange={(e) => setAstoid(e.target.value)}
+                  placeholder="Enter a Astroid ID"
+                />
+                <br />
+                <button
+                  type="submit"
+                  disabled={Apicall && Astoid.length === 7} //yha toda error lag rha hai
+                  className="btn"
+                  onClick={Astrosubmit}
+                >
+                  Submit
+                </button>
+                <button
+                  type="submit"
+                  disabled={Apicall}
+                  className="btn"
+                  onClick={RAstrosubmit}
+                >
+                  Random
+                </button>
+                <br />
+              </label>
+            </div>
+          </form>
         </div>
       </div>
     </div>
