@@ -58,6 +58,8 @@
     --bg: #080312;
     --color: #afffff;
     color: var(--color);
+          margin-top: 5%;
+
       /* use position: relative; so that BG is only for .btn */
     position: relative;
     isolation: isolate;
