@@ -24,14 +24,6 @@ function App() {
         }
       />
     </Routes>
-
-    // <div>
-    //    <h1> Hello World to the World of Astroid</h1>
-    //    <div>
-    //           <FFom/>
-    //    </div>
-
-    // </div>
   );
 }
 
