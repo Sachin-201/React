@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Form from "./Form";
 import Details from "./Details";
 import "./App.css";
@@ -7,18 +7,18 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <Router>
-        <Switch>
+     // <Router>
+        <Routes>
           <Route path="/" 
-          component={Form}
-          //element={<Form />}
+          //component={Form}
+          element={<Form />}
            />
           <Route path="/Details" 
-                    component={Details}
-          // element={<Details />}
+          //          component={Details}
+           element={<Details />}
            />
-        </Switch>
-      </Router>
+        </Routes>
+     // </Router>
     );
   }
 }
