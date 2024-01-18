@@ -10,7 +10,7 @@ const Details: FC = () => {
 
   const RecivedData: any = location.state;
       console.log("asteroidDetails  Table -->", RecivedData); //hatana hai
-  const data: any = JSON.parse(RecivedData);
+  //const data: any = JSON.parse(RecivedData);
         console.log("HEllo world we are here fo ryou")  //hatana hai
   const {
     id,
@@ -24,7 +24,7 @@ const Details: FC = () => {
       kilometers: { estimated_diameter_min, estimated_diameter_max },
     },
     nasa_jpl_url,
-  } = data;
+  } = RecivedData;
 
   return (
     <div>
