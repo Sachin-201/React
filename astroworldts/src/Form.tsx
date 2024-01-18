@@ -4,7 +4,7 @@ import withRouter from "./withRouter";
 import "./Form.css";
 const APIKEY = "rsl9CbhucQ2J9DsQb7nBNd4qWrqC11T9SdUOwSSk";
 const baseurl = "https://api.nasa.gov/neo/rest/v1/neo/";
-
+// https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=rsl9CbhucQ2J9DsQb7nBNd4qWrqC11T9SdUOwSSk
 interface State {
   Astoid: string;
   data: any
@@ -37,6 +37,7 @@ class Form extends React.Component<{ navigate: (str: string, any: any) => void }
       }
       const responseData = await response.json();
       this.setState({ data: responseData });
+      console.log("Data Recibed From the "+responseData);
       this.props.navigate("/Details", { state: responseData });
     } 
     catch (error) {
